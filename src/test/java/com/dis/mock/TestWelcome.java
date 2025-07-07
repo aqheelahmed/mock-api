@@ -20,7 +20,7 @@ import com.dis.mock.service.WelcomeService;
 public class TestWelcome {
 	
 	@MockBean
-	private WelcomeService welcomeService;
+	private WelcomeService welcomeService; // hello puja
 	
 	@Autowired
 	private MockMvc mockMvc;
